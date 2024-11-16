@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- AdminLTE -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/almasaeed2010/AdminLTE/2.4.18/dist/css/AdminLTE.min.css">
+
+    <!-- AdminLTE Skins -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/almasaeed2010/AdminLTE/2.4.18/dist/css/skins/_all-skins.min.css">
+
+    <style>
+      .like-button {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+          padding: 10px;
+          border: 1px solid #007bff;
+          border-radius: 5px;
+          color: #007bff;
+          background-color: white;
+          transition: background-color 0.3s;
+      }
+
+      .like-button:hover {
+          background-color: #007bff;
+          color: white;
+      }
+
+      .like-count {
+          margin-left: 5px;
+      }
+  </style>
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe-4.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Banana Pancakes</h2>
+            <p>
+              Shabby chic humblebrag banh mi bushwick, banjo kale chips
+              meggings. Cred selfies sartorial, cloud bread disrupt blue bottle
+              seitan. Dreamcatcher tousled bitters, health goth vegan venmo
+              whatever street art lyft shabby chic pitchfork beard. Drinking
+              vinegar poke tbh, iPhone coloring book polaroid truffaut tousled
+              ramps pug trust fund letterpress. Portland four loko austin
+              chicharrones bitters single-origin coffee. Leggings letterpress
+              occupy pour-over.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                  <i class="far fa-thumbs-up"></i>
+                  <h5>Like</h5>
+                  <p class="like-count" id="likeCount">43557</p>
+              </article>
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>cook time</h5>
+                <p>40 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="tag-template.html">beef</a>
+              <a href="tag-template.html">breakfast</a>
+              <a href="tag-template.html">pancakes</a>
+              <a href="tag-template.html">food</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          
+          <article >
+            
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">1 1/2 cups dry pancake mix</p>
+              <p class="single-ingredient">1/2 cup flax seed meal</p>
+              <p class="single-ingredient">1 cup skim milk</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Hand Blender</p>
+              <p class="single-tool">Large Heavy Pot With Lid</p>
+              <p class="single-tool">Measuring Spoons</p>
+              <p class="single-tool">Measuring Cups</p>
+            </div>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                I'm baby mustache man braid fingerstache small batch venmo
+                succulents shoreditch.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Pabst pitchfork you probably haven't heard of them, asymmetrical
+                seitan tousled succulents wolf banh mi man bun bespoke selfies
+                freegan ethical hexagon.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Polaroid iPhone bitters chambray. Cornhole swag kombucha
+                live-edge.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          
+          <article class="second-column">
+            <!-- Chat box -->
+            <div class="box box-success">
+              <div class="box-header">
+                <i class="fa fa-comments-o"></i>
+
+                <h3 class="box-title">Comments</h3>
+
+              </div>
+              <div class="box-body chat" id="chat-box">
+                <!-- chat item -->
+                <div class="item">
+                  <img src="assets/user1-128x128.jpg" alt="user image" class="online">
+
+                  <p class="message">
+                    <a href="#" class="name">
+                      <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 2:15</small>
+                      Mike Doe
+                    </a>
+                    I would like to meet you to discuss the latest news about
+                    the arrival of the new theme. They say it is going to be one the
+                    best themes on the market
+                  </p>
+                  <div class="attachment">
+                    <h4>Attachments:</h4>
+
+                    <p class="filename">
+                      Theme-thumbnail-image.jpg
+                    </p>
+
+                    <div class="pull-right">
+                      <button type="button" class="btn btn-primary btn-sm btn-flat">Open</button>
+                    </div>
+                  </div>
+                  <!-- /.attachment -->
+                </div>
+                <!-- /.item -->
+                <!-- chat item -->
+                <div class="item">
+                  <img src="assets/user1-128x128.jpg" alt="user image" class="offline">
+
+                  <p class="message">
+                    <a href="#" class="name">
+                      <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 5:15</small>
+                      Alexander Pierce
+                    </a>
+                    I would like to meet you to discuss the latest news about
+                    the arrival of the new theme. They say it is going to be one the
+                    best themes on the market
+                  </p>
+                </div>
+                <!-- /.item -->
+                <!-- chat item -->
+                <div class="item">
+                  <img src="assets/user1-128x128.jpg" alt="user image" class="offline">
+
+                  <p class="message">
+                    <a href="#" class="name">
+                      <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 5:30</small>
+                      Susan Doe
+                    </a>
+                    I would like to meet you to discuss the latest news about
+                    the arrival of the new theme. They say it is going to be one the
+                    best themes on the market
+                  </p>
+                </div>
+                <!-- /.item -->
+              </div>
+              <!-- /.chat -->
+              <div class="box-footer">
+                <div class="input-group">
+                  <input class="form-control" placeholder="Type message...">
+
+                  <div class="input-group-btn">
+                    <button type="button" class="btn btn-success"><i class="fa fa-plus"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.box (chat box) -->
+            <section class="featured-recipes">
+              <h5 class="featured-title">Look At This Awesomesouce!</h5>
+              <div class="recipes-list">
+                <!-- single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                  <img
+                    src="./assets/recipes/recipe-1.jpeg"
+                    class="img recipe-img"
+                    alt=""
+                  />
+                  <h5>Carne Asada</h5>
+                  <p>Prep : 15min | Cook : 5min</p>
+                </a>
+                <!-- end of single recipe -->
+                <!-- single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                  <img
+                    src="./assets/recipes/recipe-2.jpeg"
+                    class="img recipe-img"
+                    alt=""
+                  />
+                  <h5>Greek Ribs</h5>
+                  <p>Prep : 15min | Cook : 5min</p>
+                </a>
+                <!-- end of single recipe -->
+                <!-- single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                  <img
+                    src="./assets/recipes/recipe-3.jpeg"
+                    class="img recipe-img"
+                    alt=""
+                  />
+                  <h5>Vegetable Soup</h5>
+                  <p>Prep : 15min | Cook : 5min</p>
+                </a>
+                <!-- end of single recipe -->
+              </div>
+            </section>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span> Built by
+        <a href="https://www.johnsmilga.com/">Coding Addict</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+    <script>
+      let likeCount = 0;
+      const likeButton = document.getElementById('likeButton');
+      const likeCountDisplay = document.getElementById('likeCount');
+
+      likeButton.addEventListener('click', () => {
+          likeCount++;
+          likeCountDisplay.textContent = likeCount;
+          // Thay đổi biểu tượng khi nhấn
+          likeButton.querySelector('i').classList.toggle('fas', true);
+          likeButton.querySelector('i').classList.toggle('far', false);
+      });
+  </script>
+    <!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- AdminLTE -->
+<script src="https://cdn.rawgit.com/almasaeed2010/AdminLTE/2.4.18/dist/js/adminlte.min.js"></script>
+
+
+  </body>
+</html>
